@@ -3,6 +3,8 @@ const { version } = require('./package.json');
 const figlet = require('figlet');
 const chalk = require('chalk');
 const Table = require('cli-table3');
+const updateNotifier = require('update-notifier');
+const pkg = require('./package.json');
 
 const fonts = figlet.fontsSync();
 const randomFont = fonts[Math.round(Math.random() * fonts.length)];
@@ -27,3 +29,5 @@ const accounts = [
 
 accounts.forEach(account => table.push(account));
 console.log(table.toString())
+
+updateNotifier({ pkg }).notify();
