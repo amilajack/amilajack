@@ -1,20 +1,29 @@
 #!/usr/bin/env node
-const program = require('commander');
 const { version } = require('./package.json');
+const figlet = require('figlet');
+const chalk = require('chalk');
+const Table = require('cli-table3');
 
-var figlet = require('figlet');
+const fonts = figlet.fontsSync();
+const randomFont = fonts[Math.round(Math.random() * fonts.length)];
 
-figlet('Hello World!!', function(err, data) {
-    if (err) {
-        console.log('Something went wrong...');
-        console.dir(err);
-        return;
-    }
-    console.log(data)
+console.log(figlet.textSync('amilajack', {
+  font: randomFont
+}));
+
+const table = new Table({
+  head: ['website', 'account']
 });
 
-program
-  .version(version)
-  .description('esm-dep-check - A micro utility that checks which of your dependencies use the `module` or `jsnext:main` property in their `package.json`.')
-  .command('list', 'list the dependencies which support esm modules', { isDefault: true })
-  .parse(process.argv);
+console.log(chalk.bold('my personal w̶e̶b̶s̶i̶t̶e̶ npm module'))
+
+const accounts = [
+  ['twitter', 'https://twitter.com/amilajack'],
+  ['github', 'https://github.com/amilajack'],
+  ['website', 'https://amilajack.com'],
+  ['email', 'amilajack@gmail.com'],
+  ['resume', 'https://github.com/amilajack/resume']
+];
+
+accounts.forEach(account => table.push(account));
+console.log(table.toString())
