@@ -12,5 +12,8 @@
   },
   "bin": {
     "amilajack": "amilajack.js"
+  },
+  "scripts": {
+    "test": "exit 0"
   }
 }
