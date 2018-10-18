@@ -20,10 +20,10 @@ const table = new Table({
 console.log(chalk.bold('my personal w̶e̶b̶s̶i̶t̶e̶ npm module'))
 
 const accounts = [
-  ['twitter', 'https://twitter.com/amilajack'],
   ['github', 'https://github.com/amilajack'],
   ['website/blog', 'https://amilajack.com'],
   ['email', 'amilajack@gmail.com'],
+  ['twitter', 'https://twitter.com/amilajack'],
   ['resume', 'https://github.com/amilajack/resume'],
   ['paypal donations', 'https://paypal.me/amilajack'],
   ['venmo donations', 'https://venmo.com/amilajack']

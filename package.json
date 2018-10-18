@@ -14,6 +14,9 @@
     "amilajack": "amilajack.js"
   },
   "scripts": {
-    "test": "exit 0"
+    "test": "jest ."
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
