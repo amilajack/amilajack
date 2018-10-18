@@ -9,3 +9,7 @@ node_js:
   - node
 
 cache: yarn
+
+matrix:
+  allow_failures:
+    - os: windows
