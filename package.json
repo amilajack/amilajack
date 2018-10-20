@@ -7,7 +7,7 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "cli-table3": "^0.5.1",
-    "figlet": "^1.2.0",
+    "figlet": "^1.2.1",
     "update-notifier": "^2.5.0"
   },
   "bin": {
