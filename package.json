@@ -5,7 +5,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^2.4.2",
     "cli-table3": "^0.5.1",
     "figlet": "^1.2.1",
     "update-notifier": "^2.5.0"
