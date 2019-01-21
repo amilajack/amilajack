@@ -14,7 +14,7 @@ console.log(figlet.textSync('amilajack', {
 }));
 
 const table = new Table({
-  head: ['website', 'account']
+  head: [chalk.bold('Website'), chalk.bold('Account')]
 });
 
 console.log(chalk.bold('my personal w̶e̶b̶s̶i̶t̶e̶ npm module'))
