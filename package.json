@@ -1,20 +1,32 @@
 {
   "name": "amilajack",
   "version": "0.0.4",
-  "main": "index.js",
+  "description": "my personal w̶e̶b̶s̶i̶t̶e̶ npm module.",
   "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": "https://github.com/amilajack/amilajack.git",
+  "bugs": "https://github.com/amilajack/amilajack/bugs",
+  "homepage": "https://github.com/amilajack/amilajack",
+  "author": "Amila Welihinda <amilajack@gmail.com>",
+  "bin": {
+    "amilajack": "amilajack.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "keywords": [
+    "amilajack",
+    "personal npm module"
+  ],
   "preferGlobal": true,
   "dependencies": {
     "chalk": "^2.4.2",
     "cli-table3": "^0.5.1",
     "figlet": "^1.2.1",
     "update-notifier": "^2.5.0"
-  },
-  "bin": {
-    "amilajack": "amilajack.js"
-  },
-  "scripts": {
-    "test": "jest ."
   },
   "devDependencies": {
     "jest": "^23.6.0"
