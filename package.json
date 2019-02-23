@@ -15,7 +15,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "jest ."
+    "test": "jest"
   },
   "keywords": [
     "amilajack",
@@ -31,5 +31,8 @@
   "devDependencies": {
     "@amilajack/joker": "^0.0.1-0",
     "jest": "^24.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
