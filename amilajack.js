@@ -24,9 +24,10 @@ const accounts = [
   ['website/blog', 'https://amilajack.com'],
   ['email', 'amilajack@gmail.com'],
   ['twitter', 'https://twitter.com/amilajack'],
+  ['linkedin', 'https://www.linkedin.com/in/amilajack/'],
   ['resume', 'https://github.com/amilajack/resume'],
   ['paypal donations', 'https://paypal.me/amilajack'],
-  ['venmo donations', 'https://venmo.com/amilajack']
+  ['venmo donations', 'https://venmo.com/amilajack'],
 ];
 
 accounts.forEach(account => table.push(account));
