@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "@amilajack/joker": "^0.0.1-0",
-    "jest": "^23.6.0"
+    "jest": "^24.1.0"
   }
 }
