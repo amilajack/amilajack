@@ -34,5 +34,10 @@
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "renovate": {
+    "extends": [
+      "bliss"
+    ]
   }
 }

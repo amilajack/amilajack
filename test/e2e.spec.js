@@ -8,8 +8,10 @@ describe('e2e', () => {
   it('should render correctly', (done) => {
     new Joker({ color: false, newLine: false })
       .run(`node ${binPath}`)
-      .stdout(/github/)
-      .stdout(/email/)
+      .expect(({ stdout })=> {
+        expect(stdout).toContain('email');
+        expect(stdout).toContain('github');
+      })
       .end(done);
   });
 });
