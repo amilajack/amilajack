@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@amilajack/joker@^0.0.1-0":
-  version "0.0.1-0"
-  resolved "https://registry.yarnpkg.com/@amilajack/joker/-/joker-0.0.1-0.tgz#0e0b9b51a16dae6dab59be0ecf4e630028139ecd"
-  integrity sha512-A30WI95fsf21mT8/m2xaSoyUygGM3c6+Fhxp9YX8QvU/ZeHoayphH5eJGUh3wNu9+r828DefBE2TbJ1swblN3A==
+"@amilajack/joker@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@amilajack/joker/-/joker-0.0.1.tgz#e02d518b2f80dc21ef6e7fc1ed82c7c5a1dfebd5"
+  integrity sha512-s3OjG1NHazb7MgDWD7HHYWQtH5p0uFdXqYXcL9xM/KIamX/KHydx3tNt4X+u7i+TBqoWdg43+ZTT5u7vesdf+g==
   dependencies:
-    assertion-error "~1.1.0"
     clone "^2.1.2"
+    expect "^24.1.0"
     shell-quote "^1.6.1"
 
 "@babel/code-frame@^7.0.0":
@@ -308,11 +308,6 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
   integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
-
-assertion-error@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
-  integrity sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==
 
 assign-symbols@^1.0.0:
   version "1.0.0"
