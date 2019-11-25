@@ -15,7 +15,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "lint": "eslint .",
+    "spec": "jest",
+    "test": "yarn lint && yarn spec"
   },
   "keywords": [
     "amilajack",
@@ -23,14 +25,16 @@
   ],
   "preferGlobal": true,
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "cli-table3": "^0.5.1",
-    "figlet": "^1.2.1",
-    "update-notifier": "^2.5.0"
+    "figlet": "^1.2.4",
+    "update-notifier": "^3.0.1"
   },
   "devDependencies": {
-    "@amilajack/joker": "^0.0.1-0",
-    "jest": "^24.1.0"
+    "@amilajack/joker": "^0.0.4",
+    "eslint": "^6.7.1",
+    "eslint-config-bliss": "^4.4.0",
+    "jest": "^24.9.0"
   },
   "jest": {
     "testEnvironment": "node"
@@ -39,5 +43,11 @@
     "extends": [
       "bliss"
     ]
+  },
+  "eslintConfig": {
+    "extends": "bliss",
+    "rules": {
+      "flowtype-errors/show-errors": "off"
+    }
   }
 }
