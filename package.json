@@ -28,7 +28,7 @@
     "chalk": "^3.0.0",
     "cli-table3": "^0.5.1",
     "figlet": "^1.2.4",
-    "update-notifier": "^3.0.1"
+    "update-notifier": "^4.0.0"
   },
   "devDependencies": {
     "@amilajack/joker": "^0.0.4",
