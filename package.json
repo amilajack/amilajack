@@ -33,7 +33,7 @@
   "devDependencies": {
     "@amilajack/joker": "^0.0.4",
     "eslint": "^6.7.1",
-    "eslint-config-bliss": "^4.4.0",
+    "eslint-config-bliss": "^4.6.0",
     "jest": "^24.9.0"
   },
   "jest": {
