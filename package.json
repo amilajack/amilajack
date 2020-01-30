@@ -10,9 +10,7 @@
   "bugs": "https://github.com/amilajack/amilajack/bugs",
   "homepage": "https://github.com/amilajack/amilajack",
   "author": "Amila Welihinda <amilajack@gmail.com>",
-  "bin": {
-    "amilajack": "amilajack.js"
-  },
+  "bin": "amilajack.js",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -32,9 +30,21 @@
   },
   "devDependencies": {
     "@amilajack/joker": "^0.0.4",
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-bliss": "^4.6.0",
-    "jest": "^24.9.0"
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-import-resolver-node": "^0.3.3",
+    "eslint-plugin-compat": "^3.5.0-0",
+    "eslint-plugin-flowtype-errors": "^4.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.2.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "flow-bin": "^0.114.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
   },
   "jest": {
     "testEnvironment": "node"
