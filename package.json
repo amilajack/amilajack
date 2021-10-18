@@ -23,7 +23,7 @@
   ],
   "preferGlobal": true,
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.2",
     "cli-table3": "^0.5.1",
     "figlet": "^1.2.4",
     "update-notifier": "^4.0.0"
