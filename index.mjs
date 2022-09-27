@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --experimental-vm-modules --experimental-import-meta-resolve
 import figlet from "figlet";
 import chalk from "chalk";
 import Table from "cli-table3";
