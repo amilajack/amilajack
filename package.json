@@ -7,13 +7,15 @@
     "personal npm module"
   ],
   "homepage": "https://github.com/amilajack/amilajack",
-  "bugs": "https://github.com/amilajack/amilajack/bugs",
+  "bugs": "https://github.com/amilajack/amilajack/issues",
   "repository": "https://github.com/amilajack/amilajack.git",
   "license": "MIT",
   "author": "Amila Welihinda <amilajack@gmail.com>",
   "type": "module",
-  "main": "index.mjs",
   "bin": "index.mjs",
+  "files": [
+    "index.mjs"
+  ],
   "scripts": {
     "lint": "eslint . --ext mjs",
     "test": "NODE_OPTIONS=\"--experimental-vm-modules --experimental-import-meta-resolve\" jest"
